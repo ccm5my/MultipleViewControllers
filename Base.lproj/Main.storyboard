@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZh-vm-8tc">
-                                <rect key="frame" x="75" y="120" width="229" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZh-vm-8tc">
+                                <rect key="frame" x="76" y="120" width="224" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -38,7 +38,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mZh-vm-8tc" secondAttribute="trailing" constant="75" id="Cwj-mO-zjD"/>
                             <constraint firstItem="MVB-Jh-KBa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IdW-Qb-IWa"/>
+                            <constraint firstItem="mZh-vm-8tc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="XTQ-XQ-pWI"/>
                             <constraint firstItem="mZh-vm-8tc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bnh-dX-qE2"/>
                             <constraint firstItem="MVB-Jh-KBa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="epA-ey-2sD"/>
                             <constraint firstItem="mZh-vm-8tc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gKz-xG-J26"/>
