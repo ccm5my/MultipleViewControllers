@@ -8,8 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//This is now a global variable.
+var name = ""
 
+
+class ViewController: UIViewController {
+    
+   
+    @IBOutlet weak var outlet: UITextField!
+   
+    @IBAction func action(_ sender: Any) {
+        if(outlet.text != "" ) {
+            name = outlet.text!
+            performSegue(withIdentifier: "segue", sender: self)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
